@@ -5,12 +5,19 @@ The programme compress the files with gzip algorithm based on the other algorith
 For more information read this pages:
 
 1 - https://www.gzip.org/
+
 2 - https://www.dcc.uchile.cl/~skreft/downloads/pdf/KN09.pdf
+
 3 - https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wusp/fb98aa28-5cd7-407f-8869-a6cef1ff1ccb
+
 4 - https://cs.stanford.edu/people/eroberts/courses/soco/projects/data-compression/lossless/lz77/example.htm
+
 5 - https://cs.stanford.edu/people/eroberts/courses/soco/projects/data-compression/lossless/lz77/concept.htm
+
 6 - http://gedlc.ulpgc.es/docencia/seminarios/cd/Diccionarios/tsld011.htm
+
 7 - http://www.gedlc.ulpgc.es/docencia/seminarios/cd/Diccionarios/tsld015.htm
+
 8 - http://www.gedlc.ulpgc.es/docencia/seminarios/cd/Diccionarios/tsld016.htm
 
 Instructions for compilling binary and utilization of the programme:
