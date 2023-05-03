@@ -2,9 +2,13 @@
 
 The programme compress the files with gzip algorithm based on the other algorithm named LZ77(Lempel-Ziv 77).
 
-For more information read this page:
+For more information read this pages:
 
 1 - https://www.gzip.org/
+2 - https://www.dcc.uchile.cl/~skreft/downloads/pdf/KN09.pdf
+3 - https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wusp/fb98aa28-5cd7-407f-8869-a6cef1ff1ccb
+4 - https://cs.stanford.edu/people/eroberts/courses/soco/projects/data-compression/lossless/lz77/example.htm
+5 - https://cs.stanford.edu/people/eroberts/courses/soco/projects/data-compression/lossless/lz77/concept.htm
 
 Instructions for compilling binary and utilization of the programme:
 
