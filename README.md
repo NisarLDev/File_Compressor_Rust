@@ -1,6 +1,6 @@
 #     File_Compressor_Rust
 
-The programme compress the files with gzip algorithm based on the other algorithm named LZ77(Lempel-Ziv 77).
+The programme compress the files with gzip algorithm based on the other algorithm named LZ77 (Lempel-Ziv 77).
 
 For more information read this pages:
 
