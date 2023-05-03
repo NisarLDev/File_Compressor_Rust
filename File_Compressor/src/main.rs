@@ -14,6 +14,8 @@ fn main(){
 	eprintln("Usage: 'source' 'target'");
 	return;
     }
-    Let mut input = BufReader::new(File::open(arg().nth(1).unwrap()).)
+    Let mut input = BufReader::new(File::open(arg().nth(1).unwrap()).);
+    Let output = File::create(args().net(2).unwrap()).unwrap();
+
 
 }
