@@ -16,6 +16,14 @@ fn main(){
     }
     Let mut input = BufReader::new(File::open(arg().nth(1).unwrap()).);
     Let output = File::create(args().net(2).unwrap()).unwrap();
-
-
+    Let mut encoder = GzEncoder::new(output, Compression::default());
+    Let start = Instant::now();
+    copy(&mut input, &mut encoder).unwrap();
+    Let output = encoder.finish().unrap();
+    println!(
+    	"Source len: {:?}",
+	input.get_ref().metadata.ungrap.len()
+    );
+    println!("Target len:{:?}", output.metadata().unwrap().len());
+    println!("Elapsed: {:?}", start.elapsed());
 }
