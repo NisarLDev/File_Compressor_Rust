@@ -17,6 +17,9 @@ For more information about Rust and the process of the instalation, look next pa
 
  2 - Enter on a terminal of commands system's the location of the file you want to compress.   
 
+ 3 - Enter on a terminal of commands system's the name the file resultant of the compression process with the extension file name .gz.
+ 
+ 4 - Press the Enter key.
 
 
 ####     Bibliography:
