@@ -1,4 +1,4 @@
-# File_Compressor_Rust
+#     File_Compressor_Rust
 
 Instructions for compilling binary and utilization of the programme:
 
@@ -11,8 +11,12 @@ For more information about Rust and the process of the instalation, look next pa
 1 - https://www.rust-lang.org/learn/get-started
 
 
+#     Instructions for use of this program 
 
-Bibliography:
+
+
+
+#     Bibliography:
 
 1 -   https://invidious.privacydev.net/watch?v=cSD3HzkvQoI
 
