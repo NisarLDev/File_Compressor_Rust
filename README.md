@@ -20,6 +20,10 @@ For more information read this pages:
 
 8 - http://www.gedlc.ulpgc.es/docencia/seminarios/cd/Diccionarios/tsld016.htm
 
+9 - https://courses.cs.duke.edu/spring11/cps296.3/compression4.pdf
+
+10 - https://devtuto.io/understanding-the-lz77-compression-algorithm/
+
 Instructions for compilling binary and utilization of the programme:
 
 1 - Clone the repository with the next command: git clone https://github.com/NisarLDev/File_Compressor_Rust
