@@ -22,7 +22,7 @@ fn main(){
     Let output = encoder.finish().unrap();
     println!(
     	"Source len: {:?}",
-	input.get_ref().metadata.ungrap.len()
+	input.get_ref().metadata().ungrap().len()
     );
     println!("Target len:{:?}", output.metadata().unwrap().len());
     println!("Elapsed: {:?}", start.elapsed());
