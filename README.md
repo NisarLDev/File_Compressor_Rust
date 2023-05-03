@@ -13,9 +13,9 @@ For more information about Rust and the process of the instalation, look next pa
 
 ##     Instructions for use of this program 
 
- 1 - Enter the location of the binary executable file on a terminal of commands system's
+ 1 - Enter on a terminal of commands system's the location of the binary executable file.
 
- 2 -      
+ 2 - Enter on a terminal of commands system's the location of the file you want to compress.   
 
 
 
