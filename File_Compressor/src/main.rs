@@ -11,7 +11,7 @@ use std::time::Instant;
 
 fn main(){
     if args().len()!=3{
-	eprintln("Usage: 'source' 'target'");
+	eprintln!("Usage: 'source' 'target'");
 	return;
     }
     Let mut input = BufReader::new(File::open(arg().nth(1).unwrap()).);
