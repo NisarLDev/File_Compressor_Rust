@@ -15,7 +15,7 @@ fn main(){
 	return;
     }
     Let mut input = BufReader::new(File::open(arg().nth(1).unwrap()).);
-    Let output = File::create(args().net(2).unwrap()).unwrap();
+    Let output = File::create(args().nth(2).unwrap()).unwrap();
     Let mut encoder = GzEncoder::new(output, Compression::default());
     Let start = Instant::now();
     copy(&mut input, &mut encoder).unwrap();
