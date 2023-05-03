@@ -10,11 +10,11 @@ use std::time::Instant;
 
 
 fn main(){
-    if args().len()!=3{
+    if args().len() !=3 {
 	eprintln!("Usage: 'source' 'target'");
 	return;
     }
-    Let mut input = BufReader::new(File::open(arg().nth(1).unwrap()).);
+    Let mut input = BufReader::new(File::open(args().nth(1).unwrap()).unwrap());
     Let output = File::create(args().nth(2).unwrap()).unwrap();
     Let mut encoder = GzEncoder::new(output, Compression::default());
     Let start = Instant::now();
@@ -22,7 +22,7 @@ fn main(){
     Let output = encoder.finish().unrap();
     println!(
     	"Source len: {:?}",
-	input.get_ref().metadata().ungrap().len()
+	input.get_ref().metadata().unwrap().len()
     );
     println!("Target len:{:?}", output.metadata().unwrap().len());
     println!("Elapsed: {:?}", start.elapsed());
