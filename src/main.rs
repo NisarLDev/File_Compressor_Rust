@@ -1,13 +1,7 @@
 extern crate flate2;
 
 use flate2::{write::GzEncoder, Compression};
-use std::{
-    env::args,
-    fs::File,
-    io::copy,
-    io::BufReader,
-    time::Instant,
-};
+use std::{env::args, fs::File, io::copy, io::BufReader, time::Instant};
 
 fn main() {
     if args().len() != 3 {
