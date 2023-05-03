@@ -100,3 +100,5 @@ For more information about Rust and the process of the instalation, look next pa
 
 18 - La diferencia entre los algoritmos de compresión Brotli y Gzip para acelerar tu sitio web
      https://www.siteground.es/blog/diferencia-algoritmos-compresion-brotli-gzip-acelerar-web/
+     
+19 - https://rust-lang-nursery.github.io/rust-cookbook/
