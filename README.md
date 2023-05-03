@@ -1,5 +1,11 @@
 #     File_Compressor_Rust
 
+The programme compress the files with gzip algorithm based on the other algorithm named LZ77(Lempel-Ziv 77).
+
+For more information read this page:
+
+1 - https://www.gzip.org/
+
 Instructions for compilling binary and utilization of the programme:
 
 1 - Clone the repository with the next command: git clone https://github.com/NisarLDev/File_Compressor_Rust
@@ -72,5 +78,7 @@ For more information about Rust and the process of the instalation, look next pa
       https://github.com/simonw/advent-of-code-2022-in-rust/issues/6
 
 17 - Customizing Builds with Release Profiles - The Rust Programming Language
-https://doc.rust-lang.org/book/ch14-01-release-profiles.html
+     https://doc.rust-lang.org/book/ch14-01-release-profiles.html
 
+18 - La diferencia entre los algoritmos de compresión Brotli y Gzip para acelerar tu sitio web
+     https://www.siteground.es/blog/diferencia-algoritmos-compresion-brotli-gzip-acelerar-web/
